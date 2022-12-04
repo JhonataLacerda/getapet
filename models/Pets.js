@@ -4,7 +4,8 @@ const {Schema} = mongoose
 const  Pet  = mongoose.model(
     'Pet',
     new Schema({
-        name:{String,
+        name:{
+        type:String,
         require:true
         },
         age:{
